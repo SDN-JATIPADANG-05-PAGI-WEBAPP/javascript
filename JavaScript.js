@@ -219,50 +219,6 @@ document.getElementById("btnlogin").style.display = "block";
 }).checkLogin(username, password);
 }
 
-function Getusername(kelas) 
-{
-document.getElementById("errorMessage").innerHTML = "";
-document.getElementById("usernames").style.display = "none";
-document.getElementById("passwordlogin").style.display = "none";
-google.script.run.withSuccessHandler(function(ar) 
-{
-console.log(ar);
-username.length = 0;
-let option = document.createElement("option");
-option.value = "";
-option.text = "";
-document.getElementById("usernames").style.display = "none";
-username.appendChild(option);
-ar.forEach(function(item, index) 
-{    
-let option = document.createElement("option");
-option.value = item;
-option.text = item;
-document.getElementById("usernames").style.display = "block";
-username.appendChild(option);    
-});
-}).getusernames(kelas);
-};
-
-function Getuserkey(name) 
-{
-google.script.run.withSuccessHandler(function(ar) 
-{
-console.log(ar);
-userkey.length = 0;
-ar.forEach(function(value) 
-{ 
-let option = document.createElement("input");
-option.type = "text";
-option.name = "idkeyuser";
-option.id = "idkeyuser";
-option.value = value;
-userkey.appendChild(option);
-filterFunction();
-});
-}).getuserkey(name);
-};
-
 function clearidkey() {
 document.getElementById("errorMessage").innerHTML = "";
 document.getElementById("idkeyuser").remove();
