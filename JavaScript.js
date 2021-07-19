@@ -180,21 +180,6 @@
   document.getElementById('message').innerHTML = "<div class='alert alert-warning' role='alert'>Update Record [ID: "+records[0][0]+"]</div>";
   }
 
-
-function paste() {
-var x = document.getElementById("USERNAME").value;
-document.getElementById("namapesdik").innerHTML = x;
-var y = document.getElementById("KEY").value;
-document.getElementById("keypesdik").innerHTML = y;
-var z = document.getElementById("KLSS").value;
-document.getElementById("kelaspesdik").innerHTML = z;
-var a = document.getElementById("AVRfoto").value;
-document.getElementById("avatarfoto").innerHTML = a;
-document.getElementById("namapesdik2").innerHTML = x;
-var b = document.getElementById("FOTOPROFIL").value;
-document.getElementById("TEMAANDA").innerHTML = b;
-}
-
 function LoginUser()
 {
 var username = document.getElementById("username").value;
@@ -616,6 +601,19 @@ document.getElementById("passwordlogin").style.display = "none";
 
 function getfoto(address) {
 	document.getElementById('copy_img').value =  "<img id='fotoprofil' src='" + address.src + "'> "
+}
+function paste() {
+var x = document.getElementById("USERNAME").value;
+document.getElementById("namapesdik").innerHTML = x;
+var y = document.getElementById("KEY").value;
+document.getElementById("keypesdik").innerHTML = y;
+var z = document.getElementById("KLSS").value;
+document.getElementById("kelaspesdik").innerHTML = z;
+var a = document.getElementById("AVRfoto").value;
+document.getElementById("avatarfoto").innerHTML = a;
+document.getElementById("namapesdik2").innerHTML = x;
+var b = document.getElementById("FOTOPROFIL").value;
+document.getElementById("TEMAANDA").innerHTML = b;
 }
 
 window.addEventListener('keydown',function(e){if(e.keyIdentifier=='U+000A'||e.keyIdentifier=='Enter'||e.keyCode==13){if(e.target.nodeName=='INPUT'&&e.target.type=='text'){e.preventDefault();return false;}}},true);
