@@ -397,6 +397,7 @@ var loadImageFile = function () {
   document.getElementById("loaddingchat").style.display = "block";
   google.script.run.withSuccessHandler(createTablecHAT).getAllDataChat();
   BottomFunction();
+  scrolltextchat();
   }
     //CREATE THE DATA TABLE
   function createTablecHAT(dataArray) {
