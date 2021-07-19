@@ -394,13 +394,9 @@ var loadImageFile = function () {
 
   //GET ALL DATA CHAT
   function getAllDatacHAT(){
-  setTimeout(function () {
-  if (newState == -1) {	  
   document.getElementById("loaddingchat").style.display = "block";
-      google.script.run.withSuccessHandler(createTablecHAT).getAllDataChat();
-      BottomFunction();
-  }
-  }, 8000);
+  google.script.run.withSuccessHandler(createTablecHAT).getAllDataChat();
+  BottomFunction();
   }
     //CREATE THE DATA TABLE
   function createTablecHAT(dataArray) {
