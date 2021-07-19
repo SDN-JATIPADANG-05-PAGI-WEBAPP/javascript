@@ -400,7 +400,7 @@ var loadImageFile = function () {
       google.script.run.withSuccessHandler(createTablecHAT).getAllDataChat();
       BottomFunction();
   }
-  }, 15000);
+  }, 8000);
   }
     //CREATE THE DATA TABLE
   function createTablecHAT(dataArray) {
