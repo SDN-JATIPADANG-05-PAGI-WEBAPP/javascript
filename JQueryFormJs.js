@@ -101,7 +101,6 @@
         }
       }, 200);
       return false;
-      function getAllDatacHAT();  
     }
     
     function isFileSelected(name){
