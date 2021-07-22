@@ -13,7 +13,7 @@
   function functionInit(){  
     preventFormSubmit();
     getAllData();
-  };      
+  }
   
   //HANDLE FORM SUBMISSION
   function handleFormSubmit(formObject) {
@@ -341,56 +341,6 @@ function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
 }
 
-var coll = document.getElementsByClassName("collapsible");
-var i;
-
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var content = this.nextElementSibling;
-    if (content.style.display === "block") {
-      content.style.display = "none";
-    } else {
-      content.style.display = "block";
-    }
-  });
-}
-
-var fileReader = new FileReader();
-var filterType = /^(?:image\/bmp|image\/cis\-cod|image\/gif|image\/ief|image\/jpeg|image\/jpeg|image\/jpeg|image\/pipeg|image\/png|image\/svg\+xml|image\/tiff|image\/x\-cmu\-raster|image\/x\-cmx|image\/x\-icon|image\/x\-portable\-anymap|image\/x\-portable\-bitmap|image\/x\-portable\-graymap|image\/x\-portable\-pixmap|image\/x\-rgb|image\/x\-xbitmap|image\/x\-xpixmap|image\/x\-xwindowdump)$/i;
-
-fileReader.onload = function (event) {
-  var image = new Image();
-  
-  image.onload=function(){
-      document.getElementById("original-Img").src=image.src;
-      var canvas=document.createElement("canvas");
-      var context=canvas.getContext("2d");
-      canvas.width= 100;
-      canvas.height=100;
-      context.drawImage(image,0, 0, canvas.width, canvas.height);
-      document.getElementById("upload-Preview").src = canvas.toDataURL();
-  }
-  image.src=event.target.result;
-};
-
-var loadImageFile = function () {
-  var uploadImage = document.getElementById("file1");
-  
-  //check and retuns the length of uploded file.
-  if (uploadImage.files.length === 0) { 
-    return; 
-  }
-  
-  //Is Used for validate a valid file.
-  var uploadFile = document.getElementById("file1").files[0];
-  if (!filterType.test(uploadFile.type)) {
-    alert("Please select a valid image."); 
-    return;
-  }
-  
-  fileReader.readAsDataURL(uploadFile);
-}
 
   //GET ALL DATA CHAT
   function getAllDatacHAT(){
@@ -586,22 +536,22 @@ EditData();
 document.getElementById('FOTOPROFIL').value = "";
 document.getElementById('FOTOPROFIL').value = document.getElementById('stylethemes').value + document.getElementById('stylebcg').value;
 document.getElementById('applystylethemes1').innerHTML = document.getElementById('FOTOPROFIL').value;
-};
+}
 
 function pastefoto() {
 EditData();
 document.getElementById('AVRfoto').value = "";
 document.getElementById('AVRfoto').value = document.getElementById('copy_img').value;
 document.getElementById('upload-Preview').getAttribute("src") = document.getElementById('AVRfoto').value;
-};
+}
 
 function hidedataverifikasi() {
 document.getElementById("dataverifikasi").style.display = "none";
 document.getElementById("passwordlogin").style.display = "none";
-};
+}
 
 function getfoto(address) {
-	document.getElementById('copy_img').value =  "<img id='fotoprofil' src='" + address.src + "'> "
+document.getElementById('copy_img').value =  "<img id='fotoprofil' src='" + address.src + "'> "
 }
 function paste() {
 var x = document.getElementById("USERNAME").value;
