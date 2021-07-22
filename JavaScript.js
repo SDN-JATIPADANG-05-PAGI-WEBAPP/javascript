@@ -1,4 +1,7 @@
-  // Prevent forms from submitting.
+window.addEventListener('keydown',function(e){if(e.keyIdentifier=='U+000A'||e.keyIdentifier=='Enter'||e.keyCode==13){if(e.target.nodeName=='INPUT'&&e.target.type=='text'){e.preventDefault();return false;}}},true);
+window.addEventListener('keydown',function(e){if(e.keyIdentifier=='U+000A'||e.keyIdentifier=='Enter'||e.keyCode==13){if(e.target.nodeName=='FILECHAT'&&e.target.type=='text'){e.preventDefault();return false;}}},true);
+
+// Prevent forms from submitting.
   function preventFormSubmit() {
     var forms = document.querySelectorAll('#myForm');
     for (var i = 0; i < forms.length; i++) {
