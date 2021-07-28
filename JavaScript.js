@@ -568,10 +568,6 @@ document.getElementById("avatarfoto").innerHTML = a;
 document.getElementById("namapesdik2").innerHTML = x;
 var b = document.getElementById("FOTOPROFIL").value;
 document.getElementById("TEMAANDA").innerHTML = b;
-var p = document.getElementById("absennama").value;
-document.getElementById("namapesdik").innerHTML = p;
-var q = document.getElementById("absenkelas").value;
-document.getElementById("kelaspesdik").innerHTML = q;
 }
 
 window.addEventListener('keydown',function(e){if(e.keyIdentifier=='U+000A'||e.keyIdentifier=='Enter'||e.keyCode==13){if(e.target.nodeName=='INPUT'&&e.target.type=='text'){e.preventDefault();return false;}}},true);
