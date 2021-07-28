@@ -559,10 +559,12 @@ document.getElementById('copy_img').value =  "<img id='fotoprofil' src='" + addr
 function paste() {
 var x = document.getElementById("USERNAME").value;
 document.getElementById("namapesdik").innerHTML = x;
+document.getElementById("absennama").innerHTML = x;
 var y = document.getElementById("KEY").value;
 document.getElementById("keypesdik").innerHTML = y;
 var z = document.getElementById("KLSS").value;
 document.getElementById("kelaspesdik").innerHTML = z;
+document.getElementById("absenkelas").innerHTML = z;
 var a = document.getElementById("AVRfoto").value;
 document.getElementById("avatarfoto").innerHTML = a;
 document.getElementById("namapesdik2").innerHTML = x;
