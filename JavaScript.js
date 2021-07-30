@@ -198,6 +198,7 @@ document.getElementById("errorMessage").innerHTML = "Password Berhasil";
 document.getElementById("loginDisplay").style.display = "none";
 document.getElementById("MenuSideDiv").style.display = "block";
 paste();
+pastetema();  
 }
 else if(output == 'FALSE')
 {
