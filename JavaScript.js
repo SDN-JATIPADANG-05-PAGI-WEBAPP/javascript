@@ -572,4 +572,53 @@ var b = document.getElementById("FOTOPROFIL").value;
 document.getElementById("TEMAANDA").innerHTML = b;
 }
 
+  //GET ALL DATA
+  //document.getElementById('dataTable').innerHTML = "";
+    function getAllDataBUKUSISWA(){
+      google.script.run.withSuccessHandler(createTableBUKUSISWA).getAllDataBUKUSISWA();
+    }
+
+  //CREATE THE DATA TABLE
+  function createTableBUKUSISWA(dataArrayBUKUSISWA) {
+
+     if(dataArrayBUKUSISWA){
+      var resultBUKUSISWA = "<div class='table table-sm' id='myTableBUKUSISWA' style='display: none; margin: auto; text-align: center;'>";
+                  
+      for(var i=0; i<dataArrayBUKUSISWA.length; i++) {
+          resultBUKUSISWA += "<div class='isiBUKUSISWA' style='display: inline-block;padding:10px'>";
+          for(var j=0; j<dataArrayBUKUSISWA[i].length; j++){
+              resultBUKUSISWA += "<div class='tabelBUKUSISWA' style='display: inline-block;'>"+dataArrayBUKUSISWA[i][j]+"</div>";
+          }
+          resultBUKUSISWA += "</div>";
+      }
+      resultBUKUSISWA += "</div>";
+      var div = document.getElementById('dataTableBUKUSISWA');
+      div.innerHTML = resultBUKUSISWA;
+      document.getElementById("messageBUKUSISWA").innerHTML = "";
+      }else{
+      var div = document.getElementById('dataTableBUKUSISWA');
+      div.innerHTML = "Data Tidak di Temukan!";
+    }
+  }
+  
+  function myFunctionnBUKUSISWA() {
+  var input, filter, div, span, txtValue, table, tr, td;
+  input = document.getElementById('myBUKUSISWA');
+  filter = input.value.toUpperCase();
+  table = document.getElementById('myTableBUKUSISWA');
+  tr = table.getElementsByTagName('div');
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName('div')[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = 'inline-block';
+      } else {
+        tr[i].style.display = 'none';
+      }
+    }       
+  }
+  document.getElementById("myTableBUKUSISWA").style.display = "block";
+  document.getElementById("dataTableBUKUSISWA").style.display = "inline-block";
+  }
 window.addEventListener('keydown',function(e){if(e.keyIdentifier=='U+000A'||e.keyIdentifier=='Enter'||e.keyCode==13){if(e.target.nodeName=='INPUT'&&e.target.type=='text'){e.preventDefault();return false;}}},true);
