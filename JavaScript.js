@@ -568,9 +568,12 @@ document.getElementById("absenkelas").innerHTML = z;
 var a = document.getElementById("AVRfoto").value;
 document.getElementById("avatarfoto").innerHTML = a;
 document.getElementById("namapesdik2").innerHTML = x;
+}
+function pastetema() {
 var b = document.getElementById("FOTOPROFIL").value;
 document.getElementById("TEMAANDA").innerHTML = b;
 }
+  
 
   //GET ALL DATA
   //document.getElementById('dataTable').innerHTML = "";
