@@ -568,6 +568,7 @@ document.getElementById("kelaspesdik").innerHTML = z;
 document.getElementById("absenkelas").innerHTML = z;
 var a = document.getElementById("AVRfoto").value;
 document.getElementById("avatarfoto").innerHTML = a;
+document.getElementById("avatarfoto2").innerHTML = a;  
 document.getElementById("namapesdik2").innerHTML = x;
 }
 function pastetema() {
