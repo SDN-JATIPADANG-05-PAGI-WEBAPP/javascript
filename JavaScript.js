@@ -189,7 +189,7 @@ var username = document.getElementById("username").value;
 var password = document.getElementById("password").value;
 document.getElementById("errorMessage").innerHTML = "";
 document.getElementById("btnlogin").style.display = "none";
-document.getElementById("errorMessage").innerHTML = "<i class='fa fa-refresh fa-spin'></i> Tunggu Sebentar";
+document.getElementById("errorMessage").innerHTML = "<div id='loadingtext' style='width: 20px; font-size: 20px;'>⌛</div> Tunggu Sebentar";
 google.script.run.withSuccessHandler(function(output) 
 {
 if(output == 'TRUE')
