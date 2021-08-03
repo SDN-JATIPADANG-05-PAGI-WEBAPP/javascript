@@ -332,7 +332,6 @@ function openCity(cityName) {
     x[i].style.display = "none";  
   }
   document.getElementById(cityName).style.display = "block";  
-  closeformbiodata();
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
