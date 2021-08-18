@@ -391,7 +391,7 @@ pastethemes();
 function ThemeRed() {
 document.getElementById("stylethemes").value = "";
 document.getElementById("stylethemes").value = "<style>"+
-"body {background-image:url('https://sdn-jatipadang-05-pagi-webapp.github.io/img/ragunan.jpg');}"+
+"body {background-image:url('https://WebAppSchools.github.io/img/ragunan.jpg');}"+
 ".mkb-blue label {color: white;}"+
 ".mkb-blue input {color: red;}"+
 ".mkb-blue .mkb-button {border-color: red; background-color: white; color: red;}"+
@@ -404,7 +404,7 @@ pastethemes();
 function ThemeGreen() {
 document.getElementById("stylethemes").value = "";
 document.getElementById("stylethemes").value = "<style>"+
-"body {background-image:url('https://sdn-jatipadang-05-pagi-webapp.github.io/img/hi.jpg');}"+
+"body {background-image:url('https://WebAppSchools.github.io/img/hi.jpg');}"+
 ".mkb-blue label {color: white;}"+
 ".mkb-blue input {color: green;}"+
 ".mkb-blue .mkb-button {border-color: green; background-color: white; color: green;}"+
@@ -417,7 +417,7 @@ pastethemes();
 function ThemeBlue() {
 document.getElementById("stylethemes").value = "";
 document.getElementById("stylethemes").value = "<style>"+
-"body {background-image:url('https://sdn-jatipadang-05-pagi-webapp.github.io/img/gbk.jpg');}"+
+"body {background-image:url('https://WebAppSchools.github.io/img/gbk.jpg');}"+
 ".mkb-blue label {color: white;}"+
 ".mkb-blue input {color: blue;}"+
 ".mkb-blue .mkb-button {border-color: blue; background-color: white; color: blue;}"+
@@ -430,7 +430,7 @@ pastethemes();
 function ThemeIndigo() {
 document.getElementById("stylethemes").value = "";
 document.getElementById("stylethemes").value = "<style>"+
-"body {background-image:url('https://sdn-jatipadang-05-pagi-webapp.github.io/img/ancol.jpg');}"+
+"body {background-image:url('https://WebAppSchools.github.io/img/ancol.jpg');}"+
 ".mkb-blue label {color: white;}"+
 ".mkb-blue input {color: indigo;}"+
 ".mkb-blue .mkb-button {border-color: indigo; background-color: white; color: indigo;}"+
@@ -443,7 +443,7 @@ pastethemes();
 function ThemeMidnightBlue() {
 document.getElementById("stylethemes").value = "";
 document.getElementById("stylethemes").value = "<style>"+
-"body {background-image:url('https://sdn-jatipadang-05-pagi-webapp.github.io/img/tamini.jpg');}"+
+"body {background-image:url('https://WebAppSchools.github.io/img/tamini.jpg');}"+
 ".mkb-blue label {color: white;}"+
 ".mkb-blue input {color: rgb(25, 25, 112);}"+
 ".mkb-blue .mkb-button {border-color: rgb(25, 25, 112);background-color: white; color: rgb(25, 25, 112);}"+
