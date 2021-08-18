@@ -375,91 +375,10 @@ function closeNav() {
     }
     }
 
-function TERANG() {
-document.getElementById("stylebcg").value = "";
-document.getElementById("stylebcg").value = "<style>"+"body {background-color:white;}"+"</style>";
-pastethemes();
-}
-function GELAP() {
-document.getElementById("stylebcg").value = "";
-document.getElementById("stylebcg").value = "<style>"+"body {background-color:black;}"+"</style>";
-pastethemes();
-}
-function Marigold() {
-document.getElementById("stylebcg").value = "";
-document.getElementById("stylebcg").value = "<style>"+"body {background-color: #FDAC53;}"+"</style>";
-pastethemes();
-}
-function Cerulean() {
-document.getElementById("stylebcg").value = "";
-document.getElementById("stylebcg").value = "<style>"+"body {background-color: #9BB7D4;}"+"</style>";
-pastethemes();
-}
-function Rust() {
-document.getElementById("stylebcg").value = "";
-document.getElementById("stylebcg").value = "<style>"+"body {background-color: #5B55A30;}"+"</style>";
-pastethemes();
-}
-function Illuminating() {
-document.getElementById("stylebcg").value = "";
-document.getElementById("stylebcg").value = "<style>"+"body {background-color: #F5DF4D;}"+"</style>";
-pastethemes();
-}
-function FrenchBlue() {
-document.getElementById("stylebcg").value = "";
-document.getElementById("stylebcg").value = "<style>"+"body {background-color: #0072B5;}"+"</style>";
-pastethemes();
-}
-function GreenAsh() {
-document.getElementById("stylebcg").value = "";
-document.getElementById("stylebcg").value = "<style>"+"body {background-color: #A0DAA9;}"+"</style>";
-pastethemes();
-}
-function BurntCoral() {
-document.getElementById("stylebcg").value = "";
-document.getElementById("stylebcg").value = "<style>"+"body {background-color: #E9897E;}"+"</style>";
-pastethemes();
-}
-function Mint() {
-document.getElementById("stylebcg").value = "";
-document.getElementById("stylebcg").value = "<style>"+"body {background-color: #00A170;}"+"</style>";
-pastethemes();
-}
-function Orchid() {
-document.getElementById("stylebcg").value = "";
-document.getElementById("stylebcg").value = "<style>"+"body {background-color: #926AA6;}"+"</style>";
-pastethemes();
-}
-function Sorbet() {
-document.getElementById("stylebcg").value = "";
-document.getElementById("stylebcg").value = "<style>"+"body {background-color: #D2386C;}"+"</style>";
-pastethemes();
-}
-function Inkwell() {
-document.getElementById("stylebcg").value = "";
-document.getElementById("stylebcg").value = "<style>"+"body {background-color: #363945;}"+"</style>";
-pastethemes();
-}
-function Buttercream() {
-document.getElementById("stylebcg").value = "";
-document.getElementById("stylebcg").value = "<style>"+"body {background-color: #EFE1CE;}"+"</style>";
-pastethemes();
-}
-function Desert() {
-document.getElementById("stylebcg").value = "";
-document.getElementById("stylebcg").value = "<style>"+"body {background-color: #E0B589;}"+"</style>";
-pastethemes();
-}
-function Willow() {
-document.getElementById("stylebcg").value = "";
-document.getElementById("stylebcg").value = "<style>"+"body {background-color: #9A8B4F;}"+"</style>";
-pastethemes();
-}
-
 function ThemeBlack() {
 document.getElementById("stylethemes").value = "";
 document.getElementById("stylethemes").value = "<style>"+
-"body {background-image:url('https://sdn-jatipadang-05-pagi-webapp.github.io/img/monas2.jpg');}"+
+"body {background-image:url('https://WebAppSchools.github.io/img/monas2.jpg');}"+
 ".mkb-blue .mkb-blue label {color: white;}"+
 ".mkb-blue input {color: black;}"+
 ".mkb-blue .mkb-button {border-color: black; background-color: white; color: black;}"+
