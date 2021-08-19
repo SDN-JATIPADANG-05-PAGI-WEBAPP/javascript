@@ -382,7 +382,7 @@ document.getElementById("stylethemes").value = "<style>"+
 ".mkb-blue .mkb-blue label {color: white;}"+
 ".mkb-blue input {color: black;}"+
 ".mkb-blue .mkb-button {border-color: black; background-color: white; color: black;}"+
-".w3-bar, #home, .sidenav, .mkb-blue .mkb-button:hover {background-color: black; color: white;}"+
+".w3-bar, #home h3, .sidenav, .mkb-blue .mkb-button:hover {background-color: black; color: white;}"+
 "textpin html, .textpin, .mkb-blue .mkb-form-group {border-color: black; background-color: rgb(0, 0, 0, 0.6);color: white;}"+
 "</style>";
 pastethemes();
@@ -395,7 +395,7 @@ document.getElementById("stylethemes").value = "<style>"+
 ".mkb-blue label {color: white;}"+
 ".mkb-blue input {color: red;}"+
 ".mkb-blue .mkb-button {border-color: red; background-color: white; color: red;}"+
-".w3-bar, #home, .sidenav, .mkb-blue .mkb-button:hover {background-color: red; color: white;}"+
+".w3-bar, #home h3, .sidenav, .mkb-blue .mkb-button:hover {background-color: red; color: white;}"+
 "textpin html, .textpin, .mkb-blue .mkb-form-group {border-color: red; background-color: rgb(178, 34, 34, 0.6); color: white;}"+
 "</style>";
 pastethemes();
@@ -408,7 +408,7 @@ document.getElementById("stylethemes").value = "<style>"+
 ".mkb-blue label {color: white;}"+
 ".mkb-blue input {color: green;}"+
 ".mkb-blue .mkb-button {border-color: green; background-color: white; color: green;}"+
-".w3-bar, #home, .sidenav, .mkb-blue .mkb-button:hover {background-color: green; color: white;}"+
+".w3-bar, #home h3, .sidenav, .mkb-blue .mkb-button:hover {background-color: green; color: white;}"+
 "textpin html, .textpin, .mkb-blue .mkb-form-group {border-color: green; background-color: rgb(34, 139, 34, 0.6); color: white;}"+
 "</style>";
 pastethemes();
@@ -421,7 +421,7 @@ document.getElementById("stylethemes").value = "<style>"+
 ".mkb-blue label {color: white;}"+
 ".mkb-blue input {color: blue;}"+
 ".mkb-blue .mkb-button {border-color: blue; background-color: white; color: blue;}"+
-".w3-bar, #home, .sidenav, .mkb-blue .mkb-button:hover {background-color: blue; color: white;}"+
+".w3-bar, #home h3, .sidenav, .mkb-blue .mkb-button:hover {background-color: blue; color: white;}"+
 "textpin html, .textpin, .mkb-blue .mkb-form-group {border-color: blue; background-color: rgb(0, 0, 179, 0.6); color: white;}"+
 "</style>";
 pastethemes();
@@ -434,7 +434,7 @@ document.getElementById("stylethemes").value = "<style>"+
 ".mkb-blue label {color: white;}"+
 ".mkb-blue input {color: indigo;}"+
 ".mkb-blue .mkb-button {border-color: indigo; background-color: white; color: indigo;}"+
-".w3-bar, #home, sidenav, .mkb-blue .mkb-button:hover {background-color: indigo; color: white;}"+
+".w3-bar, #home h3, sidenav, .mkb-blue .mkb-button:hover {background-color: indigo; color: white;}"+
 "textpin html, .textpin, .mkb-blue .mkb-form-group {border-color: indigo; background-color: rgb(75, 0, 130, 0.6); color: white;}"+
 "</style>";
 pastethemes();
@@ -447,7 +447,7 @@ document.getElementById("stylethemes").value = "<style>"+
 ".mkb-blue label {color: white;}"+
 ".mkb-blue input {color: rgb(25, 25, 112);}"+
 ".mkb-blue .mkb-button {border-color: rgb(25, 25, 112);background-color: white; color: rgb(25, 25, 112);}"+
-".w3-bar, #home, .sidenav, .mkb-blue .mkb-button:hover {background-color: rgb(25, 25, 112); color;: white;}"+
+".w3-bar, #home h3, .sidenav, .mkb-blue .mkb-button:hover {background-color: rgb(25, 25, 112); color;: white;}"+
 "textpin html, .textpin, .mkb-blue .mkb-form-group {border-color: rgb(25, 25, 112); background-color: rgb(25, 25, 112, 0.6); color: white;}"+
 "</style>";
 pastethemes();
