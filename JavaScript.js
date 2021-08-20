@@ -6,7 +6,7 @@ window.addEventListener('keydown',function(e){if(e.keyIdentifier=='U+000A'||e.ke
     var forms = document.querySelectorAll('#myForm');
     for (var i = 0; i < forms.length; i++) {
       forms[i].addEventListener('submit', function(event) {
-      event.preventDefault();
+      event.preventDefault()  
       });
     }
   }
@@ -21,6 +21,7 @@ window.addEventListener('keydown',function(e){if(e.keyIdentifier=='U+000A'||e.ke
   //HANDLE FORM SUBMISSION
   function handleFormSubmit(formObject) {
     google.script.run.withSuccessHandler(createTable).processForm(formObject);
+    closeformbiodata();
   }
   
   //GET LAST 10 ROWS
