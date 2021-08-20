@@ -7,6 +7,7 @@ window.addEventListener('keydown',function(e){if(e.keyIdentifier=='U+000A'||e.ke
     for (var i = 0; i < forms.length; i++) {
       forms[i].addEventListener('submit', function(event) {
       event.preventDefault();
+      window.location.href = window.location.pathname + window.location.search + window.location.hash;
       });
     }
   }
