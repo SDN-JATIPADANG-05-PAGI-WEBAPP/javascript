@@ -320,10 +320,7 @@ document.body.scrollTop = 0; // For Safari
 document.documentElement.scrollTop = 0;
 document.getElementById("passwordlogin").style.display = "none";
 document.getElementById("dataverifikasi").style.display = "none";
-document.getElementById("menuline").style.display = "none";
-document.getElementById("Formbiodata").style.display = "none";
-document.getElementById("Setting").style.display = "none";
-document.getElementById("hiddenbiosiswa").style.display = "block";
+document.getElementById("frame").style.display = "none";
 }
 
 function openCity(cityName) {
