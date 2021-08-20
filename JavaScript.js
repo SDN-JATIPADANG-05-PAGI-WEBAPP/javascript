@@ -7,8 +7,6 @@ window.addEventListener('keydown',function(e){if(e.keyIdentifier=='U+000A'||e.ke
     for (var i = 0; i < forms.length; i++) {
       forms[i].addEventListener('submit', function(event) {
       event.preventDefault();
-      closeformbiodata();
-      LockData();  
       });
     }
   }
@@ -378,9 +376,9 @@ document.getElementById("stylethemes").value = "<style>"+
 "body {background-image:url('https://WebAppSchools.github.io/img/monas2.jpg');}"+
 ".mkb-blue .mkb-blue label {color: white;}"+
 ".mkb-blue input {color: black;}"+
-".mkb-blue .mkb-button {border-color: black; background-color: white; color: black;}"+
+".mkb-blue .mkb-button {background-color: white; color: black;}"+
 ".w3-bar, #home h3, .sidenav, .mkb-blue .mkb-button:hover {background-color: black; color: white;}"+
-"textpin html, .textpin, .mkb-blue .mkb-form-group {border-color: black; background-color: rgb(0, 0, 0, 0.6);color: white;}"+
+"textpin html, .textpin, .mkb-blue .mkb-form-group {background-color: rgb(0, 0, 0, 0.6);color: white;}"+
 "</style>";
 pastethemes();
 }
@@ -391,9 +389,9 @@ document.getElementById("stylethemes").value = "<style>"+
 "body {background-image:url('https://WebAppSchools.github.io/img/ragunan.jpg');}"+
 ".mkb-blue label {color: white;}"+
 ".mkb-blue input {color: #8B0000;}"+
-".mkb-blue .mkb-button {border-color: #8B0000; background-color: white; color: #8B0000;}"+
+".mkb-blue .mkb-button {background-color: white; color: #8B0000;}"+
 ".w3-bar, #home h3, .sidenav, .mkb-blue .mkb-button:hover {background-color: #8B0000; color: white;}"+
-"textpin html, .textpin, .mkb-blue .mkb-form-group {border-color: #8B0000; background-color: rgb(139, 0, 0, 0.6); color: white;}"+
+"textpin html, .textpin, .mkb-blue .mkb-form-group {background-color: rgb(139, 0, 0, 0.6); color: white;}"+
 "</style>";
 pastethemes();
 }
@@ -404,9 +402,9 @@ document.getElementById("stylethemes").value = "<style>"+
 "body {background-image:url('https://WebAppSchools.github.io/img/hi.jpg');}"+
 ".mkb-blue label {color: white;}"+
 ".mkb-blue input {color: #006400;}"+
-".mkb-blue .mkb-button {border-color: #006400; background-color: white; color: #006400;}"+
+".mkb-blue .mkb-button {background-color: white; color: #006400;}"+
 ".w3-bar, #home h3, .sidenav, .mkb-blue .mkb-button:hover {background-color: #006400; color: white;}"+
-"textpin html, .textpin, .mkb-blue .mkb-form-group {border-color: #006400; background-color: rgb(0, 100, 0, 0.6); color: white;}"+
+"textpin html, .textpin, .mkb-blue .mkb-form-group {background-color: rgb(0, 100, 0, 0.6); color: white;}"+
 "</style>";
 pastethemes();
 }
@@ -417,9 +415,9 @@ document.getElementById("stylethemes").value = "<style>"+
 "body {background-image:url('https://WebAppSchools.github.io/img/gbk.jpg');}"+
 ".mkb-blue label {color: white;}"+
 ".mkb-blue input {color: #000080;}"+
-".mkb-blue .mkb-button {border-color: #000080; background-color: white; color: #000080;}"+
+".mkb-blue .mkb-button {background-color: white; color: #000080;}"+
 ".w3-bar, #home h3, .sidenav, .mkb-blue .mkb-button:hover {background-color: #000080; color: white;}"+
-"textpin html, .textpin, .mkb-blue .mkb-form-group {border-color: #000080; background-color: rgb(0, 0, 128, 0.6); color: white;}"+
+"textpin html, .textpin, .mkb-blue .mkb-form-group {background-color: rgb(0, 0, 128, 0.6); color: white;}"+
 "</style>";
 pastethemes();
 }
@@ -429,10 +427,10 @@ document.getElementById("stylethemes").value = "";
 document.getElementById("stylethemes").value = "<style>"+
 "body {background-image:url('https://WebAppSchools.github.io/img/ancol.jpg');}"+
 ".mkb-blue label {color: white;}"+
-".mkb-blue input {color: indigo;}"+
-".mkb-blue .mkb-button {border-color: indigo; background-color: white; color: indigo;}"+
-".w3-bar, #home h3, sidenav, .mkb-blue .mkb-button:hover {background-color: indigo; color: white;}"+
-"textpin html, .textpin, .mkb-blue .mkb-form-group {border-color: indigo; background-color: rgb(75, 0, 130, 0.6); color: white;}"+
+".mkb-blue input {color: #4B0082;}"+
+".mkb-blue .mkb-button {background-color: white; color: #4B0082;}"+
+".w3-bar, #home h3, sidenav, .mkb-blue .mkb-button:hover {background-color: #4B0082; color: white;}"+
+"textpin html, .textpin, .mkb-blue .mkb-form-group {background-color: rgb(75, 0, 130, 0.6); color: white;}"+
 "</style>";
 pastethemes();
 }
@@ -442,10 +440,10 @@ document.getElementById("stylethemes").value = "";
 document.getElementById("stylethemes").value = "<style>"+
 "body {background-image:url('https://WebAppSchools.github.io/img/tamini.jpg');}"+
 ".mkb-blue label {color: white;}"+
-".mkb-blue input {color: rgb(25, 25, 112);}"+
-".mkb-blue .mkb-button {border-color: rgb(25, 25, 112);background-color: white; color: rgb(25, 25, 112);}"+
-".w3-bar, #home h3, .sidenav, .mkb-blue .mkb-button:hover {background-color: rgb(25, 25, 112); color;: white;}"+
-"textpin html, .textpin, .mkb-blue .mkb-form-group {border-color: rgb(25, 25, 112); background-color: rgb(25, 25, 112, 0.6); color: white;}"+
+".mkb-blue input {color: #191970;}"+
+".mkb-blue .mkb-button {background-color: white; color: #191970;}"+
+".w3-bar, #home h3, .sidenav, .mkb-blue .mkb-button:hover {background-color: #191970; color;: white;}"+
+"textpin html, .textpin, .mkb-blue .mkb-form-group {background-color: rgb(225, 25, 112, 0.6); color: white;}"+
 "</style>";
 pastethemes();
 }
