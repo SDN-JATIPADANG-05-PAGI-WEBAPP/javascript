@@ -374,7 +374,7 @@ function closeNav() {
 function ThemeBlack() {
 document.getElementById("stylethemes").value = "";
 document.getElementById("stylethemes").value = "<style>"+
-"body {background-image:url('https://WebAppSchools.github.io/img/blackbcg.jpg');}"+
+"body {background-image:url('https://WebAppSchools.github.io/img/blackbcg.jpg');background-size: 200px 200px;}"+
 ".mkb-blue .mkb-blue label {color: white;}"+
 ".mkb-blue input {color: black;}"+
 ".mkb-blue .mkb-button {background-color: white; color: black;}"+
@@ -387,7 +387,7 @@ pastethemes();
 function ThemeRed() {
 document.getElementById("stylethemes").value = "";
 document.getElementById("stylethemes").value = "<style>"+
-"body {background-image:url('https://WebAppSchools.github.io/img/redbcg.jpg');}"+
+"body {background-image:url('https://WebAppSchools.github.io/img/redbcg.jpg');background-size: 200px 200px;}"+
 ".mkb-blue label {color: white;}"+
 ".mkb-blue input {color: #8B0000;}"+
 ".mkb-blue .mkb-button {background-color: white; color: #8B0000;}"+
@@ -400,7 +400,7 @@ pastethemes();
 function ThemeGreen() {
 document.getElementById("stylethemes").value = "";
 document.getElementById("stylethemes").value = "<style>"+
-"body {background-image:url('https://WebAppSchools.github.io/img/greenbcg.jpg');}"+
+"body {background-image:url('https://WebAppSchools.github.io/img/greenbcg.jpg');background-size: 200px 200px;}"+
 ".mkb-blue label {color: white;}"+
 ".mkb-blue input {color: #006400;}"+
 ".mkb-blue .mkb-button {background-color: white; color: #006400;}"+
@@ -413,7 +413,7 @@ pastethemes();
 function ThemeBlue() {
 document.getElementById("stylethemes").value = "";
 document.getElementById("stylethemes").value = "<style>"+
-"body {background-image:url('https://WebAppSchools.github.io/img/bluebcg.jpg');}"+
+"body {background-image:url('https://WebAppSchools.github.io/img/bluebcg.jpg');background-size: 200px 200px;}"+
 ".mkb-blue label {color: white;}"+
 ".mkb-blue input {color: #000080;}"+
 ".mkb-blue .mkb-button {background-color: white; color: #000080;}"+
@@ -426,7 +426,7 @@ pastethemes();
 function ThemeIndigo() {
 document.getElementById("stylethemes").value = "";
 document.getElementById("stylethemes").value = "<style>"+
-"body {background-image:url('https://WebAppSchools.github.io/img/indigobcg.jpg');}"+
+"body {background-image:url('https://WebAppSchools.github.io/img/indigobcg.jpg');background-size: 200px 200px;}"+
 ".mkb-blue label {color: white;}"+
 ".mkb-blue input {color: #4B0082;}"+
 ".mkb-blue .mkb-button {background-color: white; color: #4B0082;}"+
@@ -439,7 +439,7 @@ pastethemes();
 function ThemeMidnightBlue() {
 document.getElementById("stylethemes").value = "";
 document.getElementById("stylethemes").value = "<style>"+
-"body {background-image:url('https://WebAppSchools.github.io/img/navybcg.jpg');}"+
+"body {background-image:url('https://WebAppSchools.github.io/img/navybcg.jpg');background-size: 200px 200px;}"+
 ".mkb-blue label {color: white;}"+
 ".mkb-blue input {color: #191970;}"+
 ".mkb-blue .mkb-button {background-color: white; color: #191970;}"+
