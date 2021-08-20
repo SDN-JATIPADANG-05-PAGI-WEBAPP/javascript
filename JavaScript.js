@@ -22,7 +22,6 @@ window.addEventListener('keydown',function(e){if(e.keyIdentifier=='U+000A'||e.ke
   function handleFormSubmit(formObject) {
     google.script.run.withSuccessHandler(createTable).processForm(formObject);
     closeformbiodata();
-    window.location.href = window.location.pathname + window.location.search + window.location.hash;
     LockData();
   }
   
@@ -320,7 +319,7 @@ document.body.scrollTop = 0; // For Safari
 document.documentElement.scrollTop = 0;
 document.getElementById("passwordlogin").style.display = "none";
 document.getElementById("dataverifikasi").style.display = "none";
-document.getElementById("frame").style.display = "none";
+document.getElementById("hiddenbiosiswa").style.display = "none";
 }
 
 function openCity(cityName) {
