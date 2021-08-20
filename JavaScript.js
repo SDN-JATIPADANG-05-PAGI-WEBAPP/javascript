@@ -306,7 +306,7 @@ document.getElementById("Formbiodata").style.display = "block";
 }
 function closeformbiodata() {
 closeall();
-document.getElementById("menuline").style.display = "block";
+document.getElementById("hiddenbiosiswa").style.display = "none";
 }
 function formsetting() {
 closeall();
