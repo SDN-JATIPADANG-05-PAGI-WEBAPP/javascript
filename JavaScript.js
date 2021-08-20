@@ -390,10 +390,10 @@ document.getElementById("stylethemes").value = "";
 document.getElementById("stylethemes").value = "<style>"+
 "body {background-image:url('https://WebAppSchools.github.io/img/ragunan.jpg');}"+
 ".mkb-blue label {color: white;}"+
-".mkb-blue input {color: red;}"+
-".mkb-blue .mkb-button {border-color: red; background-color: white; color: red;}"+
-".w3-bar, #home h3, .sidenav, .mkb-blue .mkb-button:hover {background-color: red; color: white;}"+
-"textpin html, .textpin, .mkb-blue .mkb-form-group {border-color: red; background-color: rgb(178, 34, 34, 0.6); color: white;}"+
+".mkb-blue input {color: #8B0000;}"+
+".mkb-blue .mkb-button {border-color: #8B0000; background-color: white; color: #8B0000;}"+
+".w3-bar, #home h3, .sidenav, .mkb-blue .mkb-button:hover {background-color: #8B0000; color: white;}"+
+"textpin html, .textpin, .mkb-blue .mkb-form-group {border-color: #8B0000; background-color: rgb(139, 0, 0, 0.6); color: white;}"+
 "</style>";
 pastethemes();
 }
@@ -403,10 +403,10 @@ document.getElementById("stylethemes").value = "";
 document.getElementById("stylethemes").value = "<style>"+
 "body {background-image:url('https://WebAppSchools.github.io/img/hi.jpg');}"+
 ".mkb-blue label {color: white;}"+
-".mkb-blue input {color: green;}"+
-".mkb-blue .mkb-button {border-color: green; background-color: white; color: green;}"+
-".w3-bar, #home h3, .sidenav, .mkb-blue .mkb-button:hover {background-color: green; color: white;}"+
-"textpin html, .textpin, .mkb-blue .mkb-form-group {border-color: green; background-color: rgb(34, 139, 34, 0.6); color: white;}"+
+".mkb-blue input {color: #006400;}"+
+".mkb-blue .mkb-button {border-color: #006400; background-color: white; color: #006400;}"+
+".w3-bar, #home h3, .sidenav, .mkb-blue .mkb-button:hover {background-color: #006400; color: white;}"+
+"textpin html, .textpin, .mkb-blue .mkb-form-group {border-color: #006400; background-color: rgb(0, 100, 0, 0.6); color: white;}"+
 "</style>";
 pastethemes();
 }
@@ -416,10 +416,10 @@ document.getElementById("stylethemes").value = "";
 document.getElementById("stylethemes").value = "<style>"+
 "body {background-image:url('https://WebAppSchools.github.io/img/gbk.jpg');}"+
 ".mkb-blue label {color: white;}"+
-".mkb-blue input {color: blue;}"+
-".mkb-blue .mkb-button {border-color: blue; background-color: white; color: blue;}"+
-".w3-bar, #home h3, .sidenav, .mkb-blue .mkb-button:hover {background-color: blue; color: white;}"+
-"textpin html, .textpin, .mkb-blue .mkb-form-group {border-color: blue; background-color: rgb(0, 0, 179, 0.6); color: white;}"+
+".mkb-blue input {color: #000080;}"+
+".mkb-blue .mkb-button {border-color: #000080; background-color: white; color: #000080;}"+
+".w3-bar, #home h3, .sidenav, .mkb-blue .mkb-button:hover {background-color: #000080; color: white;}"+
+"textpin html, .textpin, .mkb-blue .mkb-form-group {border-color: #000080; background-color: rgb(0, 0, 128, 0.6); color: white;}"+
 "</style>";
 pastethemes();
 }
