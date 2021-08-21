@@ -452,7 +452,7 @@ pastethemes();
 function pastethemes() {
 EditData();
 document.getElementById('FOTOPROFIL').value = "";
-document.getElementById('FOTOPROFIL').value = document.getElementById('stylethemes').value + document.getElementById('stylebcg').value;
+document.getElementById('FOTOPROFIL').value = document.getElementById('stylethemes').value;
 document.getElementById('applystylethemes1').innerHTML = document.getElementById('FOTOPROFIL').value;
 }
 
