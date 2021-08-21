@@ -446,7 +446,6 @@ document.getElementById("stylethemes").value = "<style>"+
 ".w3-bar, #home h3, .sidenav, .mkb-blue .mkb-button:hover {background-color: #191970; color;: white;}"+
 "textpin html, .textpin, .mkb-blue .mkb-form-group {background-color: rgb(225, 25, 112, 0.6); color: white;}"+
 "</style>";
-pastethemes();
 }
 
 function pastethemes() {
