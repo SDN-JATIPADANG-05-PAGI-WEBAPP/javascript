@@ -375,11 +375,10 @@ function ThemeBlack() {
 document.getElementById("stylethemes").value = "";
 document.getElementById("stylethemes").value = "<style>"+
 "body {background-image:url('https://WebAppSchools.github.io/img/blackbcg.jpg');}"+
-".mkb-blue .mkb-blue label {color: white;}"+
 ".mkb-blue input {color: black;}"+
 ".mkb-blue .mkb-button {background-color: white; color: black;}"+
-".w3-bar, #home h3, .sidenav, .mkb-blue .mkb-button:hover {background-color: black; color: white;}"+
-"textpin html, .textpin, .mkb-blue .mkb-form-group {background-color: rgb(0, 0, 0, 0.6);color: white;}"+
+".w3-bar, #home h3, .sidenav, .mkb-blue .mkb-button:hover {background-color: black;}"+
+".mkb-blue .mkb-form-group {background-color: rgb(0, 0, 0, 0.6);}"+
 "</style>";
 pastethemes();
 }
@@ -388,11 +387,10 @@ function ThemeRed() {
 document.getElementById("stylethemes").value = "";
 document.getElementById("stylethemes").value = "<style>"+
 "body {background-image:url('https://WebAppSchools.github.io/img/redbcg.jpg');}"+
-".mkb-blue label {color: white;}"+
 ".mkb-blue input {color: #8B0000;}"+
 ".mkb-blue .mkb-button {background-color: white; color: #8B0000;}"+
-".w3-bar, #home h3, .sidenav, .mkb-blue .mkb-button:hover {background-color: #8B0000; color: white;}"+
-"textpin html, .textpin, .mkb-blue .mkb-form-group {background-color: rgb(139, 0, 0, 0.6); color: white;}"+
+".w3-bar, #home h3, .sidenav, .mkb-blue .mkb-button:hover {background-color: #8B0000;}"+
+".mkb-blue .mkb-form-group {background-color: rgb(139, 0, 0, 0.6);}"+
 "</style>";
 pastethemes();
 }
@@ -401,11 +399,10 @@ function ThemeGreen() {
 document.getElementById("stylethemes").value = "";
 document.getElementById("stylethemes").value = "<style>"+
 "body {background-image:url('https://WebAppSchools.github.io/img/greenbcg.jpg');}"+
-".mkb-blue label {color: white;}"+
 ".mkb-blue input {color: #006400;}"+
 ".mkb-blue .mkb-button {background-color: white; color: #006400;}"+
-".w3-bar, #home h3, .sidenav, .mkb-blue .mkb-button:hover {background-color: #006400; color: white;}"+
-"textpin html, .textpin, .mkb-blue .mkb-form-group {background-color: rgb(0, 100, 0, 0.6); color: white;}"+
+".w3-bar, #home h3, .sidenav, .mkb-blue .mkb-button:hover {background-color: #006400;}"+
+".mkb-blue .mkb-form-group {background-color: rgb(0, 100, 0, 0.6);}"+
 "</style>";
 pastethemes();
 }
@@ -414,11 +411,10 @@ function ThemeBlue() {
 document.getElementById("stylethemes").value = "";
 document.getElementById("stylethemes").value = "<style>"+
 "body {background-image:url('https://WebAppSchools.github.io/img/bluebcg.jpg');}"+
-".mkb-blue label {color: white;}"+
 ".mkb-blue input {color: #000080;}"+
 ".mkb-blue .mkb-button {background-color: white; color: #000080;}"+
-".w3-bar, #home h3, .sidenav, .mkb-blue .mkb-button:hover {background-color: #000080; color: white;}"+
-"textpin html, .textpin, .mkb-blue .mkb-form-group {background-color: rgb(0, 0, 128, 0.6); color: white;}"+
+".w3-bar, #home h3, .sidenav, .mkb-blue .mkb-button:hover {background-color: #000080;}"+
+".mkb-blue .mkb-form-group {background-color: rgb(0, 0, 128, 0.6);}"+
 "</style>";
 pastethemes();
 }
@@ -427,11 +423,10 @@ function ThemeIndigo() {
 document.getElementById("stylethemes").value = "";
 document.getElementById("stylethemes").value = "<style>"+
 "body {background-image:url('https://WebAppSchools.github.io/img/indigobcg.jpg');}"+
-".mkb-blue label {color: white;}"+
 ".mkb-blue input {color: #4B0082;}"+
 ".mkb-blue .mkb-button {background-color: white; color: #4B0082;}"+
-".w3-bar, #home h3, sidenav, .mkb-blue .mkb-button:hover {background-color: #4B0082; color: white;}"+
-"textpin html, .textpin, .mkb-blue .mkb-form-group {background-color: rgb(75, 0, 130, 0.6); color: white;}"+
+".w3-bar, #home h3, sidenav, .mkb-blue .mkb-button:hover {background-color: #4B0082;}"+
+".mkb-blue .mkb-form-group {background-color: rgb(75, 0, 130, 0.6);}"+
 "</style>";
 pastethemes();
 }
@@ -440,11 +435,10 @@ function ThemeMidnightBlue() {
 document.getElementById("stylethemes").value = "";
 document.getElementById("stylethemes").value = "<style>"+
 "body {background-image:url('https://WebAppSchools.github.io/img/navybcg.jpg');}"+
-".mkb-blue label {color: white;}"+
 ".mkb-blue input {color: #191970;}"+
 ".mkb-blue .mkb-button {background-color: white; color: #191970;}"+
-".w3-bar, #home h3, .sidenav, .mkb-blue .mkb-button:hover {background-color: #191970; color;: white;}"+
-"textpin html, .textpin, .mkb-blue .mkb-form-group {background-color: rgb(225, 25, 112, 0.6); color: white;}"+
+".w3-bar, #home h3, .sidenav, .mkb-blue .mkb-button:hover {background-color: #191970;}"+
+".mkb-blue .mkb-form-group {background-color: rgb(225, 25, 112, 0.6);}"+
 "</style>";
 pastethemes();  
 }
